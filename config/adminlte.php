@@ -232,17 +232,38 @@ return [
         ],
 
         // Sidebar items:
-        
+        [
+            'text' => 'Inicio',
+            'url'  => 'admin',
+            'icon' => 'fas fa-fw fa-calendar',
+        ],
         ['header' => 'AJUSTES DE LA PAGINA'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Banners',
+            'url'  => 'admin/banners',
+            'icon' => 'fas fa-fw fa-book',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Navs',
+            'url'  => 'admin/navs',
+            'icon' => 'fas fa-fw fa-bars',
+        ],
+        [
+            'text' => 'Carousels',
+            'url'  => 'admin/carousels',
+            'icon' => 'fas fa-fw fa-images',
+        ],
+        [
+            'text' => 'Marquee',
+            'url'  => 'admin/marquees',
+            'icon' => 'fas fa-fw fa-brush',
+        ],
+       
+        ['header' => 'AJUSTES DE LA CUENTA'],
+        [
+            'text' => 'profile',
+            'url'  => 'dashboard',
+            'icon' => 'fas fa-fw fa-user',
         ],
         // [
         //     'text'    => 'multilevel',
